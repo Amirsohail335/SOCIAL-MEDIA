@@ -1,18 +1,18 @@
 const mongoose = require("mongoose");
 
 module.exports = async () => {
-    const mongoUri =
-        "mongodb+srv://anuj:Ya0fKBalld60gpfs@cluster0.rblpaxc.mongodb.net/?retryWrites=true&w=majority";
+  const mongoUri =
+    "mongodb+srv://amir:infXkKWeRD1rJeOO@cluster0.ijadpmx.mongodb.net/?retryWrites=true&w=majority";
 
-    try {
-        const connect = await mongoose.connect(mongoUri, {
-            useUnifiedTopology: true,
-            useNewUrlParser: true,
-        });
+  try {
+    const connect = await mongoose.connect(mongoUri, {
+      useUnifiedTopology: true,
+      useNewUrlParser: true,
+    });
 
-        console.log(`MongoDB connected: ${connect.connection.host}`);
-    } catch (error) {
-        console.log(error);
-        process.exit(1);
-    }
+    console.log(`MongoDB connected: ${connect.connection.host}`);
+  } catch (error) {
+    console.log(error);
+    process.exit(1);
+  }
 };
