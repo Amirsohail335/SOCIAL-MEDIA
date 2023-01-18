@@ -7,10 +7,10 @@ router.post(
   requireUser,
   UserController.followOrUnfollowUserController
 );
-router.get(
-  "/getPostsOfFollowing",
-  requireUser,
-  UserController.getPostsOfFollowing
-);
+// router.get(
+//   "/getPostsOfFollowing",
+//   requireUser,
+//   UserController.getPostsOfFollowing
+// );
 
 module.exports = router;
