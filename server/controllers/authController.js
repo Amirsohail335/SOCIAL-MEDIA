@@ -122,7 +122,7 @@ const generateAccessToken = (data) => {
         });
         console.log(token);
         return token;
-    } catch (error) {
+    } catch (error) { 
         console.log(error);
     }
 };
