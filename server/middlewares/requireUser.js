@@ -7,8 +7,8 @@ module.exports = async (req, res, next) => {
         !req.headers.authorization ||
         !req.headers.authorization.startsWith("Bearer")
     ) {
-        // return res.status(401).send("Authorization header is required");
-        return res.send(error(401, 'Authorization header is required'))
+        return res.status(401).send("Authorization header is required");
+        // return res.send(error(401, 'Authorization header is required'))
     }
 
     const accessToken = req.headers.authorization.split(" ")[1];
