@@ -1,7 +1,7 @@
 import Login from "./pages/login/Login";
 import { Routes, Route } from "react-router-dom";
 import Signup from "./pages/signup/Signup";
-// import Home from "./pages/home/Home";
+import Home from "./pages/home/Home";
 // import RequireUser from "./components/RequireUser";
 // import Feed from "./components/feed/Feed";
 // import Profile from "./components/profile/Profile";
