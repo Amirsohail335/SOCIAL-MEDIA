@@ -130,7 +130,7 @@ const generateRefreshToken = (data) => {
     const token = jwt.sign(data, process.env.REFRESH_TOKEN_PRIVATE_KEY, {
       expiresIn: "1y",
     });
-    console.log(token);
+    // console.log(token);
     return token;
   } catch (error) {
     // console.log(error);
