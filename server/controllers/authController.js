@@ -121,7 +121,7 @@ const generateAccessToken = (data) => {
     console.log(token);
     return token;
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 
