@@ -118,5 +118,5 @@ module.exports = {
   createPostController,
   likeAndUnlikePost,
   updatePostController,
-  deletePost,
+  // deletePost,
 };
