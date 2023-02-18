@@ -117,6 +117,6 @@ const deletePost = async (req, res) => {
 module.exports = {
   createPostController,
   likeAndUnlikePost,
-  updatePostController,
+  // updatePostController,
   // deletePost,
 };
